@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    text-align: center;
+}
+
+form {
+    width: 380px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.field {
+    width: 95%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+/* Validation feedback */
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 18px;
+}
+
+#finalMsg {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.terms {
+    margin-top: 15px;
+}
