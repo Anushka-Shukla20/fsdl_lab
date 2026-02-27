@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Validation Registration Form</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- External JavaScript -->
+    <script defer src="form.js"></script>
+</head>
+
+<body>
+
+<h1 id="title">Registration Form</h1>
+
+<form id="regForm" novalidate>
+
+    <label>Full Name</label>
+    <input type="text" id="name" class="field">
+    <small class="error" id="nameError"></small>
+
+    <label>Email</label>
+    <input type="text" id="email" class="field">
+    <small class="error" id="emailError"></small>
+
+    <label>Phone Number</label>
+    <input type="text" id="phone" class="field">
+    <small class="error" id="phoneError"></small>
+
+    <label>Age</label>
+    <input type="text" id="age" class="field">
+    <small class="error" id="ageError"></small>
+
+    <label>Password</label>
+    <input type="password" id="password" class="field">
+    <small class="error" id="passwordError"></small>
+
+    <label>Confirm Password</label>
+    <input type="password" id="confirmPassword" class="field">
+    <small class="error" id="confirmError"></small>
+
+    <label class="terms">
+        <input type="checkbox" id="terms">
+        I agree to all the Terms and Conditions
+    </label>
+    <small class="error" id="termsError"></small>
+
+    <button type="button" id="submitBtn">Register</button>
+</form>
+
+<p id="finalMsg"></p>
+
+</body>
+</html>
