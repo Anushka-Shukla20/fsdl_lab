@@ -1,9 +1,199 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>HELLO</title>
+    <meta charset="UTF-8">
+    <title>Aditya Bhale | Developer</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.5;
+        }
+
+        header {
+            padding: 40px 8%;
+            background: linear-gradient(135deg, #020617, #0f172a);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 14px;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        .links {
+            margin-top: 16px;
+            font-size: 13px;
+        }
+
+        .links span {
+            margin-right: 12px;
+            color: #cbd5f5;
+        }
+
+        section {
+            padding: 30px 8%;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #f8fafc;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .skill {
+            padding: 6px 10px;
+            background-color: #020617;
+            border: 1px solid #1e293b;
+            border-radius: 999px;
+            font-size: 12px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .project h3 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .tech {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 6px;
+        }
+
+        ul {
+            padding-left: 16px;
+            font-size: 13px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        footer {
+            padding: 20px 8%;
+            font-size: 12px;
+            color: #64748b;
+            border-top: 1px solid #1e293b;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-<h1>My Website</h1>
-<p> my name is anushka</p>
+
+<header>
+    <h1>Anushka Shukla</h1>
+    <p>
+        Computer Science undergraduate focused on machine learning, backend development,
+        and building intelligent systems that solve real-world problems.
+    </p>
+
+    <div class="links">
+        <span>📍 Pune, India</span>
+        <span>📞 +91-9594699741</span>
+        <span>✉️ anushka777.work@gmail.com</span>
+        <span>🔗 LinkedIn: ansuhka-035b2226b</span>
+    </div>
+</header>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">C++</div>
+        <div class="skill">C</div>
+        <div class="skill">SQL</div>
+        <div class="skill">NoSQL</div>
+        <div class="skill">HTML / CSS</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">VS Code</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">NLP</div>
+    </div>
+</section>  
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>LSTM-Based Fake News Detector</h3>
+        <div class="tech">Python · NLP · LSTM · Bi-LSTM · Scikit-learn</div>
+        <ul>
+            <li>Built a deep learning model to classify news articles as real or fake.</li>
+            <li>Captured contextual dependencies using LSTM and Bi-LSTM architectures.</li>
+            <li>Achieved 91.83% accuracy on a dataset of 20,000+ articles.</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <h3>Fake Job Posting Detection</h3>
+        <div class="tech">Machine Learning · Flask · MongoDB</div>
+        <ul>
+            <li>Developed an AI-driven system to identify fraudulent job postings.</li>
+            <li>Used TF-IDF and Random Forest achieving 93.4% accuracy.</li>
+            <li>Implemented real-time predictions with Flask and MongoDB.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Education & Achievements</h2>
+
+    <div class="grid">
+        <div>
+            <h3>Education</h3>
+            <p>
+                <strong>MIT World Peace University</strong><br>
+                B.Tech in Computer Science<br>
+                Pune, India
+            </p>
+        </div>
+
+        <div>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Winner – HACK-MIT Peace Hackathon</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Anushka Shukla · Built as a personal web profile
+</footer>
+
 </body>
 </html>
